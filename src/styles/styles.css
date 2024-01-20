@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 300px;
+  max-height: 100vh;
+}
+.modal {
+  transition: opacity 0.25s ease;
+}
+body.modal-active {
+  overflow-x: hidden;
+  overflow-y: visible !important;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.dots {
+  display: flex;
+
+  justify-content: center;
+}
+
+.dot {
+  cursor: pointer;
+}
+
+.dot:focus {
+  outline: none;
+}
+
+.dot.active {
+  background: #FF0080;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  cursor: pointer;
+}
+.arrow:hover{
+  fill:#464646;
+}
+.arrow--left {
+  left: -30px;
+}
+
+.arrow--right {
+  left: auto;
+  right: -30px;
+}
+
+.arrow--disabled {
+  fill: rgba(255, 255, 255, 0.1);
+}
+.arrow--disabled:hover{
+  fill: rgba(255, 255, 255, 0.1);
+  cursor: auto;
+}
+

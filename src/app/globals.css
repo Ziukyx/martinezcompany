@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+.texto{
+  @apply text-justify xxs:text-base xs:text-lg sm:text-2xl 
+}
+.texto2{
+  @apply text-justify xxs:text-base xs:text-lg sm:text-2xl lg:text-lg
+}
+.backgroundCircle{
+  @apply absolute rounded-full dark:mix-blend-lighten filter blur-2xl 
+}
+.backgroundCircle1{
+  @apply right-2/3 top-0 w-72 h-72 bg-pink-400 opacity-10 dark:opacity-20
+}
+.backgroundCircle2{
+  @apply   left-1/4 top-0 w-44 h-48 bg-blue-400 opacity-50 xs:opacity-10
+}
+.backgroundCircle3{
+  @apply   left-1/3 top-0 sm:w-72 sm:h-72 bg-violet-400 xs:w-20 xs:h-20 opacity-20 dark:opacity-30
+}
+.backgroundCircle4{
+  @apply  top-2/3 left-1/3 bg-pink-400 opacity-20 xxs:hidden
+}
+.textoCard{
+  @apply text-center xxs:text-[13px] xs:text-[18px] sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 
+}
+@tailwind utilities;
+
+
+@layer utilities{
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+@font-face{
+  font-family: "Perfetto";
+  src: url(
+    "../Fonts/perfetto.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;  
+}
+@font-face{
+  font-family: "aeonik";
+  src: url(
+    "../Fonts/aeonik.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;  
+}
+
+.animated-box {
+  color: #ffffff;
+  text-align: center;
+}
+/* The animation starts here */
+.animated-box {
+  position: relative;
+}
+
+.animated-box:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background-size: 300% 300%;
+  clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
+}
+
+.animated-box.in:after {
+  animation: frame-enter 4s forwards ease-in-out reverse, gradient-animation 4s ease-in-out infinite;
+}
+
+/* motion */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes frame-enter {
+  0% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), 3px calc(100% - 3px), 3px 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  25% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) calc(100% - 3px), calc(100% - 3px) 100%, 100% 100%, 100% 0%, 0% 0%);
+  }
+  50% {
+    clip-path: polygon(0% 100%, 3px 100%, 3px 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, calc(100% - 3px) 3px, 100% 0%, 0% 0%);
+  }
+  75% {
+    -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 3px, 3px 0%, 0% 0%);
+  }
+  100% {
+    -webkit-clip-path: polygon(0% 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 3px 100%, 0% 100%);
+  }
+}
+
