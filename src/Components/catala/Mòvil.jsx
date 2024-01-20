@@ -110,11 +110,12 @@ function ContactoWhatsApp(props) {
       >
         <div className="px-4 py-6">
           <div className='absolute right-[39%] p-2 xxs:-top-6 md:-top-7 rounded-full bg-white'>
-            <Image src={LogoInstagram} className='w-10'/>
+            <Image alt="imatge" src={LogoInstagram} className='w-10'/>
           </div>
 
           <div className='flex flex-col max-w-xl mx-auto'>
             <Image 
+            alt="imatge"
             src={Logo}
               className='w-75 pt-3'
             />
@@ -126,6 +127,7 @@ function ContactoWhatsApp(props) {
 
           <div className='flex flex-col items-center max-w-xl mx-auto pt-1'>
             <Image
+            alt="imatge"
             className='w-20'
             src={QRW}/>
           </div> 
@@ -154,11 +156,12 @@ function ContactoTelegram(props) {
     >
       <div className="px-4 py-6">
         <div className='absolute right-[39%] p-2 rounded-full bg-white xxs:-top-6 md:-top-7'>
-          <Image src={LogoTelegram} className='w-10'/>
+          <Image alt="imatge" src={LogoTelegram} className='w-10'/>
         </div>
 
         <div className='flex flex-col max-w-xl mx-auto mr-1'>
           <Image 
+          alt="imatge"
           src={Logo}
             className='w-75 pt-3'
           />
@@ -170,6 +173,7 @@ function ContactoTelegram(props) {
 
         <div className='flex flex-col items-center max-w-xl mx-auto pt-1'>
           <Image
+          alt="imatge"
           className='w-20'
           src={QRT}/>
         </div> 

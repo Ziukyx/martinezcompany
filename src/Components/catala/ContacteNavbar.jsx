@@ -2,7 +2,7 @@
 import React from "react"
 import { Popover, Transition } from "@headlessui/react" 
 import { Fragment } from "react" 
-import Logo from '../../images/logovectorizado.svg' 
+import Logo from '../../Images/logovectorizado.svg'
 import Image from 'next/image' 
 import { Container } from "../Container" 
 import { NavLink } from "../NavLink" 
