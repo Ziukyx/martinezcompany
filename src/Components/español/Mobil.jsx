@@ -11,8 +11,8 @@ import Image from 'next/image'
 import Logo from '../../Images/LogoVecColor.svg'
 import LogoTelegram from '../../Images/LogoTelegram.svg'
 import LogoInstagram from '../../Images/whatsappIcon.svg'
-import QRW from '../../Images/QRWhatsapp.jpg'
-import QRT from '../../Images/QRTelegram.jpg'
+import codigowhatsapp from '../../Images/codigowhatsapp.png'
+import codigoTelegram from '../../Images/codigotelegram.png'
 import Link from 'next/link'
 import { FadeIn } from '../FadeIn'
 
@@ -129,7 +129,7 @@ function ContactoWhatsApp(props) {
             <Image
             alt="image"
             className='w-20'
-            src={QRW}/>
+            src={codigowhatsapp}/>
           </div> 
           <Link href='https://wa.me/34623954897' className='text-xl text-white font-lorin'>
             <div className="mt-5 rounded-[40px] hover:-translate-y-0.5 transform transition ease-out hover:shadow-md shadow-md hover:shadow-gray-500 shadow-gray-400  bg-[#25D366] py-2 text-center "> 
@@ -175,7 +175,7 @@ function ContactoTelegram(props) {
           <Image
           alt="image"
           className='w-20'
-          src={QRT}/>
+          src={codigoTelegram}/>
         </div> 
         <Link href='https://t.me/mart_comp' className='text-xl text-white font-lorin'>
           <div className="mt-5 rounded-[40px] hover:-translate-y-0.5 transform transition ease-out hover:shadow-lg hover:shadow-gray-500 shadow-md shadow-gray-400  bg-gradient-to-tr from-[#6493A7] to-[#7182B1] py-2 text-center ">

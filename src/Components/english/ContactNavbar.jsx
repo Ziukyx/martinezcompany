@@ -1,6 +1,6 @@
 'use client' 
 import React from "react"
-import Logo from '../../images/logovectorizado.svg' 
+import Logo from '../../Images/logovectorizado.svg' 
 import { Fragment } from "react" 
 import { Popover, Transition } from "@headlessui/react"
 import Image from 'next/image' 
