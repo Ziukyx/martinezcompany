@@ -24,6 +24,7 @@
     "use-debounce": "^10.0.0"
   },
   "devDependencies": {
+    "@cloudflare/next-on-pages": "^1.8.3",
     "@headlessui/tailwindcss": "^0.2.0",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
