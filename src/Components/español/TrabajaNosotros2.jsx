@@ -335,7 +335,7 @@ function TrabajaNosotros2() {
         <div className='mx-auto sm:max-w-3xl lg:max-w-[950px] xl:max-w-6xl 2xl:max-w-7xl xxs:py-10 xs:py-16 lg:px-3 xl:px-8 sm:py-16 lg:py-20 '>
             <div className='mx-auto xxs:max-w-lg sm:max-w-2xl md:max-w-6xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-5xl xxs:px-5 lg:px-8'>
                 <div className="max-w-7xl mx-auto relative z-10 w-full xxs:mb-10 xs:mb-0 sm:mb-16 md:mb-16">
-                    <h1 className="py-3 text-4xl xs:text-[40px] sm:text-6xl tracking-tight text-center md:text-7xl bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent">
+                    <h1 className="py-3 text-4xl xs:text-[40px] sm:text-6xl tracking-tighter dark:tracking-normal text-center md:text-7xl bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient bg-clip-text text-transparent">
                         Ventajas y beneficios
                     </h1>
                 </div>
