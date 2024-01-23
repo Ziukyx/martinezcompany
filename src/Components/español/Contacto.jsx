@@ -22,7 +22,7 @@ export default function Contacto() {
                 />
               </div>
             </div>
-            <h2 className="text-2xl tracking-tighter xxs:text-center xxs:text-3xl xs:text-[31px] sm:text-5xl md:text-6xl lg:text-left lg:text-[53px] lg:pl-8 xl:pl-0 xl:text-[68px] 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient py-5 mx-auto xs:max-w-md sm:max-w-5xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl xs:mb-5 md:mb-8 lg:mb-8 xl:mb-10 2xl:mb-12">¿Cómo podemos ayudarle?</h2>
+            <h2 className="text-2xl tracking-tighter xxs:text-center xxs:text-2xl xs:text-[31px] sm:text-5xl md:text-6xl lg:text-left lg:text-[53px] lg:pl-8 xl:pl-0 xl:text-[68px] 2xl:text-7xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient py-5 mx-auto xs:max-w-md sm:max-w-5xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl xs:mb-5 md:mb-8 lg:mb-8 xl:mb-10 2xl:mb-12">¿Cómo podemos ayudarle?</h2>
             <p className="mt-6 text-blue-950 dark:text-white lg:pl-8 xl:pl-0 texto">
             Ya sea para resolverle dudas o preguntas sobre nuestros servicios, plantearnos una colaboración o compartir su experiencia con nosotros, <span className='font-avenirBook'>¡</span>no dude en contactarnos<span className='font-avenirBook'>!</span>
             </p>

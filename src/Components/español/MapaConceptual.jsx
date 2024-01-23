@@ -132,7 +132,7 @@ function Mobil(){
           <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
           <div className="flex flex-row items-center justify-center xs:space-x-5 sm:space-x-7 xxs:mt-5 sm:mt-10">
             <h3 className="text-blue-500 xxs:text-3xl xxs:ml-5 xs:ml-5 xs:text-[40px] sm:text-5xl sm:ml-0 font-semibold mb-2 w-[5px]">02</h3>
-            <h3 className="text-blue-950 dark:text-white xxs:text-base xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px]">Evaluación de la situación y<br className='xxs:block'/> detección de la oportunidad</h3>
+            <h3 className="text-blue-950 dark:text-white tracking-tight xxs:text-[15px] xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px]">Evaluación de la situación y<br className='xxs:block'/> detección de la oportunidad</h3>
           </div>
           <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
           <div className="flex flex-row items-center justify-center xs:space-x-5 sm:space-x-7 xxs:mt-5 sm:mt-10">
@@ -175,7 +175,7 @@ function Mobil(){
           <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
           <div className="flex flex-row items-center justify-center xs:space-x-5 sm:space-x-7 xxs:mt-5 sm:mt-10">
             <h3 className="text-blue-500 xxs:text-3xl xxs:ml-5 xs:ml-5 xs:text-[40px] sm:text-5xl sm:ml-0 font-semibold mb-2 w-[5px]">09</h3>
-            <h3 className="text-blue-950 dark:text-white xxs:text-base xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px]  ">Consecución de subvención <br/>y/o adjudicación del contrato</h3>
+            <h3 className="text-blue-950 dark:text-white  tracking-tight xxs:text-[15px] xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px]  ">Consecución de subvención <br/>y/o adjudicación del contrato</h3>
           </div>
           <GradientDividerUniversal className="from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
           <div className="xxs:w-[260px] xxs:py-7 xs:w-[280px] xs:py-10 sm:w-[330px] sm:py-10 md:w-[380px] md:py-5 max-w-xl mx-auto">

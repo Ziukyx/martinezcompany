@@ -66,7 +66,7 @@ export const TypeWriterEffect = ({
   return (
     <div
       className={cn(
-        "text-blue-950 dark:text-white text-base xxs:font-bold lg:font-normal xxs:text-xl xs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center xxs:leading-loose lg:leading-normal",
+        "text-blue-950 dark:text-white text-base xxs:font-bold lg:font-normal xxs:text-lg xs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center xxs:leading-loose lg:leading-normal",
         className
       )}
     >
