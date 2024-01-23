@@ -1,6 +1,7 @@
 import { ContacteNavbar } from "@/Components/catala/ContacteNavbar";
 import FooterCat from "@/Components/catala/FooterCat";
 
+
 export default function ContacteLayout({
     children, // will be a page or nested layout
   }) {

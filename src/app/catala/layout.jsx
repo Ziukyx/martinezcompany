@@ -1,6 +1,10 @@
 import FooterCat from "@/Components/catala/FooterCat";
 import { NavbarCat } from "@/Components/catala/NavbarCat";
 
+export const metadata = {
+  title: 'Martínez & Company Management & Intermediation',
+  description: 'Captadors de subvencions i licitacions públiques.',
+}
 export default function CatalaLayout({
     children, // will be a page or nested layout
   }) {
