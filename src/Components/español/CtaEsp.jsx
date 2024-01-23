@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../app/globals.css'
+import '../../styles/globals.css'
 import Image from 'next/image'
 import ImgCta from '../../Images/prueba2.svg'
 import Link from 'next/link'

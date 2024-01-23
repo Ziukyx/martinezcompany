@@ -12,7 +12,7 @@ import { NavbarEsp } from "@/Components/español/NavbarEsp";
 import NuestrosValores from "@/Components/español/NuestrosValores";
 import VerticalNavbar from "@/Components/español/VerticalNavbar";
 import { useState, useEffect } from "react";
-import "./globals.css";
+import "../styles/globals.css";
 
 export default function Home() {
 
