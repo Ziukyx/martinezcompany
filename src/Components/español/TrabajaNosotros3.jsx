@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { FadeIn } from './FadeIn'
+import { FadeIn } from '../FadeIn'
 
 
 export function TrabajaNosotros3() {

@@ -124,7 +124,7 @@ export function ContactNavbar() {
                 />  
                 </NavLink>  
               </div>  
-              <div className="flex items-center gap-x-5 lg:gap-x-14 justify-center">  
+              <div className="flex items-center gap-x-2 lg:gap-x-14 justify-center">  
                 <div className="hidden lg:block">  
                   <NavLink href="#introduccion"></NavLink>  
                   <NavLink href="#introduccion"></NavLink>  
@@ -132,7 +132,7 @@ export function ContactNavbar() {
                   <NavLink href="#nuestrosvalores"></NavLink>  
                   <NavLink href="#mapaconceptual"></NavLink>  
                 </div>  
-                <div className="flex flex-row gap-5 lg:mr-7 items-center justify-center">  
+                <div className="flex flex-row xxs:gap-3 lg:gap-5 lg:mr-7 items-center justify-center">  
                   <LanguageMenuContacto /> 
                   <SwitchToggle />
   
