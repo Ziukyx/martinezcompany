@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../app/globals.css'
+import '../../styles/globals.css'
 import Image from 'next/image'
 import ImgCta from '../../Images/prueba2.svg'
 import Link from 'next/link'
@@ -19,6 +19,7 @@ function CtaCat() {
 
             <div className="flex lg:py-8 xl:py-0 xxs:max-w-xxs xxs:mx-auto xs:w-96 xxs:mt-14 sm:w-96 sm:mt-14 md:w-[490px] md:mt-16 lg:mt-0 lg:max-w-none lg:pr-5 lg:w-auto lg:basis-[45%] xl:mt-0 xl:basis-[45%] 2xl:basis-[38%] 2xl:mt-5">
                   <Image
+                  alt="imatge"
                   src={ImgCta} 
                       className=''
                   />
