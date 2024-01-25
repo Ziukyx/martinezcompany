@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <link rel="icon" href="/favicon.ico"></link>
       <body className="font-aeonik dark:font-normal font-semibold dark:bg-slate-950 bg-white">
       <Providers>
       {children}
