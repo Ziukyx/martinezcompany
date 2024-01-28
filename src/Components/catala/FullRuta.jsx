@@ -1,11 +1,11 @@
 import React from 'react'
 import { FadeIn } from '../FadeIn';
 import { motion } from 'framer-motion'
-import First from '../../Images/MapaConceptual1.svg'
 import Image from "next/image";
-import Second from '../../Images/MapaConceptual2.svg'
-import Fourth from '../../Images/MapaConceptual4.svg'
-import Third from '../../Images/MapaConceptual5.svg'
+import First from '../../Images/MapaConceptual1.webp'
+import Second from '../../Images/MapaConceptual2.webp'
+import Fourth from '../../Images/MapaConceptual3.webp'
+import Third from '../../Images/MapaConceptual4.webp'
 import GradientDividerUniversal from '../GradientDividerUniversal';
 import { TextGenerateEffect1 } from '../TextGenerateEffect';
 
@@ -33,8 +33,8 @@ function Ordenador(){
             <div className="before:content-['03'] before:text-blue-400 before:text-3xl before:font-semibold col-start-1 ">
               <h3 className="text-blue-950 dark:text-white lg:text-2xl xl:text-2xl">Assessorament <br />personalitzat</h3>
             </div>
-            <div className="lg:w-[450px] lg:py-20 xl:w-[500px] 2xl:w-[560px] 2xl:py-20 max-w-2xl mx-auto">
-              <Image alt="imatge" src={Second} className=''/>
+            <div className="lg:w-[380px] lg:py-20 xl:w-[430px] 2xl:w-[480px] 2xl:py-20 max-w-2xl mx-auto">
+              <Image src={Second} alt="imatge" className=''/>
             </div>
             <div className="before:content-['07'] before:text-blue-400 before:text-3xl before:font-semibold 2xl:pt-8">
               <h3 className="text-blue-950 dark:text-white lg:text-2xl xl:text-2xl">Preparació de <br />documentació</h3>
@@ -159,8 +159,8 @@ function Ordenador(){
               <h3 className="text-blue-950 dark:text-white xxs:text-base xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px] ">Comunicació<br/>constant</h3>
             </div>
             <GradientDividerUniversal className="from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
-            <div className="xxs:w-[300px] xxs:py-7 xs:w-[320px] xs:py-10 sm:w-[350px] sm:py-10 md:w-[450px] md:py-5 max-w-xl mx-auto">
-              <Image alt="imatge" src={Second} className=''/>
+            <div className="pl-2 xxs:w-[270px] xxs:pt-6 xxs:py-7 xs:w-[300px] xs:py-10 xs:pt-8 sm:w-[350px] sm:py-10 sm:pt-7 md:w-[380px] md:py-5 md:pt-3 max-w-xl mx-auto">
+              <Image src={Second} alt="image" className=''/>
             </div>
             <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl md:max-w-xl mx-auto"/>
             <div className="flex flex-row items-center justify-center xs:space-x-5 sm:space-x-7 xxs:mt-5 sm:mt-10">
@@ -197,7 +197,7 @@ function Ordenador(){
               <h3 className="text-blue-950 dark:text-white xxs:text-base xs:text-xl sm:text-2xl md:text-3xl font-bold xxs:w-[280px] xs:w-[330px] sm:w-[400px] md:w-[466px] ">Avaluació <br/>de l’impacte</h3>
             </div>  
             <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800 xxs:mt-5 xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl sm:mt-10 md:max-w-2xl mx-auto"/>
-            <div className="xxs:w-[280px] xxs:py-7 xs:w-[300px] xs:py-8 sm:w-[330px] sm:py-10 md:w-[380px] md:py-5 max-w-xl mx-auto">
+            <div className="xxs:w-[280px] xxs:py-5  xs:w-[300px] xs:py-8 sm:w-[330px] sm:py-10 md:w-[380px] md:py-5 max-w-xl mx-auto">
               <Image alt="imatge" src={Third} className=''/>
             </div>
             <GradientDividerUniversal className="h-px lg:h-[2px] dark:h-px from-blue-400 to-blue-400 dark:from-slate-800 dark:to-slate-800  xxs:max-w-[300px] xs:max-w-[350px] sm:max-w-xl md:max-w-xl mx-auto"/>

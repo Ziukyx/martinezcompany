@@ -4,8 +4,8 @@ import { Providers } from './providers'
 
 
 export const metadata = {
-  title: 'Martínez & Company Management & Intermediation',
-  description: 'Captadores de subvenciones y licitaciones públicas.',
+  title: 'Martínez & Company - Captadores de subvenciones y licitaciones públicas.',
+  description: 'Nos dedicamos a la captación de subvenciones y licitaciones públicas en Palma de Mallorca.',
 }
 
 export default function RootLayout({ children }) {
