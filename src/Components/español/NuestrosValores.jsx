@@ -189,7 +189,7 @@ export function ResourcePattern({ mouseX, mouseY, ...gridProps }) {
             <div className="relative grid grid-cols-1 place-items-center">
                 <h3 className="text-blue-950 dark:text-white textoCard">{resource.name}</h3>
                 <h3 className="text-blue-950 dark:text-white textoCard">{resource.name2}</h3>
-                <button onClick={() => handleModal(resource.titleModal, resource.text, resource.text2, resource.text3, resource.icon)} className="mt-5 modal-open content-center inline-flex relative items-center justify-center w-8 h-8 text-blue-950 dark:text-white bg-white dark:bg-slate-900 rounded-full focus:shadow-outline hover:bg-slate-200 dark:hover:bg-slate-950">
+                <button aria-label="Saber más" onClick={() => handleModal(resource.titleModal, resource.text, resource.text2, resource.text3, resource.icon)} className="mt-5 modal-open content-center inline-flex relative items-center justify-center w-8 h-8 text-blue-950 dark:text-white bg-white dark:bg-slate-900 rounded-full focus:shadow-outline hover:bg-slate-200 dark:hover:bg-slate-950">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
                     </svg>
@@ -364,6 +364,7 @@ export default function NuestrosValores() {
         return (
           <button
             key={idx}
+            aria-label="Ir a..."
             onClick={() => {
               instanceRef.current?.moveToIdx(idx);
             }}
