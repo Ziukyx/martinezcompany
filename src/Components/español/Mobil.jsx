@@ -237,7 +237,7 @@ export default function FeaturesDesktop() {
                 initial={{ borderRadius: 200 }}
               />
             )}
-            <Tab className="ui-not-focus-visible:outline-none items-center justify-center">
+            <Tab aria-label="Whatsapp/Telegram" className="ui-not-focus-visible:outline-none items-center justify-center">
               <div className="relative z-10 px-2 py-1 items-center justify-center">
                 <feature.icon className="h-8 w-8 mt-1 text-white" />
               </div>
