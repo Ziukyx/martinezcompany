@@ -11,7 +11,7 @@ import LogoColor from '../../Images/LogoVecColor.svg'
 import Link from "next/link"
 import SwitchToggle from "../SwitchToggle"
 import LanguageMenu from "../LanguageMenu"
-import NuevoSwitch from "../NuevoSwitch"
+
 
 
 
@@ -19,47 +19,55 @@ import NuevoSwitch from "../NuevoSwitch"
 //Componente de React que renderiza un enlace que se usa en una  
 //interfaz de usuario móvil. 
  
-export function MobileNavLink({href, children, className, ...props}){ 
+export const MobileNavLink = React.memo(function MobileNavLink({href, children, className, ...props}){ 
   return ( 
-    <Popover.Button as={Link} href={href} className={clsx("block w-full p-2 text-center", className)} {...props}> 
-      {children} 
-    </Popover.Button> 
+    <React.Fragment>
+      <Popover.Button as={Link} href={href} className={clsx("block w-full p-2 text-center", className)} {...props}> 
+        {children} 
+      </Popover.Button> 
+    </React.Fragment>
   ) 
-} 
+ });
  
 //Renderiza un ícono SVG que se utiliza como un botón de alternancia  
 //para abrir o cerrar el menú de navegación en una interfaz de usuario móvil. 
  
-export function MobileNavIcon({ open }) { 
+export const MobileNavIcon = React.memo(function MobileNavIcon({ open }) { 
   return( 
-    <svg 
-    aria-hidden = "true" //Indica que el SVG es decorativo y no debe ser leído por lectores de pantalla. 
-    className="h-3.5 w-3.5 overflow-visible stroke-blue-950 dark:stroke-white" 
-    fill="none" //color 
-    strokeWidth={2} 
-    strokeLinecap="round"> 
-      <path d="M0 1H14M0 7H14M0 13H14" 
-      className={clsx('origin-center transition', open && 'scale-90 opacity-0', )} 
-      /> 
-          
-      <path d="M2 2L12 12M12 2L2 12" 
-      className={clsx('origin-center transition', !open && 'scale-90 opacity-0', )} 
-      /> 
-    </svg> 
+    <React.Fragment>
+     <svg 
+     aria-hidden = "true" 
+     className="h-3.5 w-3.5 overflow-visible stroke-blue-950 dark:stroke-white" 
+     fill="none" 
+     strokeWidth={2} 
+     strokeLinecap="round"> 
+       <path d="M0 1H14M0 7H14M0 13H14" 
+       className={clsx('origin-center transition', open && 'scale-90 opacity-0', )} 
+       /> 
+           
+       <path d="M2 2L12 12M12 2L2 12" 
+       className={clsx('origin-center transition', !open && 'scale-90 opacity-0', )} 
+       /> 
+     </svg>
+    </React.Fragment>
   ) 
-} 
+ });
+ 
  
 //Componente de React que representa la interfaz de navegación para el sitio web, 
 // específicamente diseñada para la visualización en dispositivos móviles. 
  
 function MobileNavigation() { 
+
+  const renderIcon = React.useCallback(({ open }) => <MobileNavIcon open={open} />, []);
+
   return ( 
     <Popover> 
       <Popover.Button 
         className="relative z-10 flex h-8 w-8 items-center justify-center ui-not-focus-visible:outline-none" 
         aria-label="Toggle Navigation" 
       > 
-        {({ open }) => <MobileNavIcon open={open} />} 
+        {renderIcon} 
       </Popover.Button> 
       <Transition.Root> 
         <Transition.Child 
@@ -86,6 +94,7 @@ function MobileNavigation() {
             as="div" 
             className="absolute inset-x-0 top-full mt-4 flex flex-col content-center rounded-2xl from-slate-300 to-slate-100 dark:bg-slate-900 bg-gradient-to-t dark:from-slate-950 dark:to-blue-950 p-4 text-lg tracking-tight text-slate-950 dark:text-white" 
           > 
+          <React.Fragment>
             <h1 href="#features" className="block w-full p-2 text-center">Mapa web</h1> 
             <hr className="m-2 border-blue-950 dark:border-slate-300/40" /> 
             <div className="flex flex-row place-items-center hover:text-pink-500 max-w-[150px] mx-auto">
@@ -131,6 +140,7 @@ function MobileNavigation() {
               </svg>
               <MobileNavLink href="/contacto/#trabajanosotros" className="">Oportunidades laborales</MobileNavLink>
             </div>
+            </React.Fragment>
           </Popover.Panel> 
         </Transition.Child> 
       </Transition.Root> 
@@ -163,18 +173,10 @@ export function NavbarEsp() {
               />  
               </NavLink>  
             </div>  
-            <div className="flex items-center gap-x-2 lg:gap-x-14 justify-center">  
-              <div className="hidden lg:block">  
-                <NavLink href="#introduccion"></NavLink>  
-                <NavLink href="#introduccion"></NavLink>  
-                <NavLink href="#mision"></NavLink>  
-                <NavLink href="#nuestrosvalores"></NavLink>  
-                <NavLink href="#mapaconceptual"></NavLink>  
-              </div>  
+            <div className="flex items-center gap-x-2 lg:gap-x-14 justify-center">   
               <div className="flex flex-row xxs:gap-3 lg:gap-5 lg:mr-7 items-center justify-center">  
                 <LanguageMenu /> 
                 <SwitchToggle />
-
               </div>  
               <div className="-mr-1 lg:hidden">   
                 <MobileNavigation />
