@@ -36,7 +36,7 @@ export const navigation = {
       },
       {
         name: 'Instagram',
-        href: 'https://instagram.com/mart_comp?igshid=MzRlODBiNWFlZA==',
+        href: '#',
         icon: (props) => ( 
           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24" className='text-[#FD00AB] hover:text-pink-900 -my-px'>
             <path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z"/>
@@ -81,13 +81,13 @@ function Footer() {
 
             <div className="pb-6 md:whitespace-nowrap columns-2 xxs:flex xxs:flex-wrap xxs:justify-center xxs:space-x-1 xs:space-x-2 md:space-x-2" aria-label="Footer">
                 <div>
-                    <a href='#' className=" xxs:text-sm xs:text-md leading-6 after:content-['__·'] text-blue-950 hover:text-blue-400 dark:text-gray-300 dark:hover:text-gray-600">
+                    <a href='/avisolegal' className=" xxs:text-sm xs:text-md leading-6 after:content-['__·'] text-blue-950 hover:text-blue-400 dark:text-gray-300 dark:hover:text-gray-600">
                     Aviso Legal
                     </a>
                     
                 </div>
                 <div>
-                    <a href='#' className="xxs:text-sm xs:text-md leading-6 after:content-['__·'] text-blue-950 hover:text-blue-400 dark:text-gray-300 dark:hover:text-gray-600">
+                    <a href='/politicaprivacidad' className="xxs:text-sm xs:text-md leading-6 after:content-['__·'] text-blue-950 hover:text-blue-400 dark:text-gray-300 dark:hover:text-gray-600">
                     Política de privacidad
                     </a>
                     
