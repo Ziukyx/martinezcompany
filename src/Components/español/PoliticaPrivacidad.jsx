@@ -49,7 +49,7 @@ function PoliticaPrivacidad() {
     </div>
     <br/>
     <div>
-        <p className='texto'>El sitio web puede contener enlaces o hipervínculos a otros sitios de Internet, respecto a los cuales no ejerce ningún tipo de control. Por tanto, una vez que el usuario acceda a los enlaces de terceros y abandone el sitio web, tanto el <a href='/' className='text-blue-400 underline underline-offset-2'>Aviso Legal</a>, como la Política de Privacidad y la Política de Cookies dejarán de surtir efecto, ya que los sitios web a los que el usuario acceda están sujetos a sus propias políticas</p>
+        <p className='texto'>El sitio web puede contener enlaces o hipervínculos a otros sitios de Internet, respecto a los cuales no ejerce ningún tipo de control. Por tanto, una vez que el usuario acceda a los enlaces de terceros y abandone el sitio web, tanto el <a href='/avisolegal' className='text-blue-400 underline underline-offset-2'>Aviso Legal</a>, como la Política de Privacidad y la Política de Cookies dejarán de surtir efecto, ya que los sitios web a los que el usuario acceda están sujetos a sus propias políticas</p>
         <br/>
         <p className='texto'><span className='font-bold'>Martínez & Company Management & Intermediation</span> no se hace responsable del contenido o prácticas de los sitios enlazados y se recomienda al usuario la lectura detallada de la política de privacidad de cualquier sitio web al que acceda desde éste.</p>
         <br/>
