@@ -2,12 +2,12 @@ import React from 'react'
 
 function AvisoLegal() {
   return (
-    <div className='py-20 xxs:px-5 sm:px-8 lg:px-20 max-w-6xl mx-auto'>
+    <div className='xxs:py-10 md:py-20 xxs:px-5 sm:px-10 lg:px-20 max-w-6xl mx-auto'>
         <div>
             <h1 className='text-center xxs:font-semibold lg:font-normal bg-clip-text text-transparent py-5 mx-auto tracking-tight xxs:text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-[80px] 2xl:text-[90px] xxs:mb-3 lg:mb-5 bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient'>Aviso Legal</h1> 
         </div>
-        <div>
-            <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-base xs:text-lg sm:text-2xl'>
+        <div className='mt-10'>
+            <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-lg xs:text-xl sm:text-3xl'>
             1. Información legal y aceptación
             </h2>
             <br/>
@@ -32,8 +32,8 @@ function AvisoLegal() {
             </p>
         </div>
         <br/>
-        <div>
-            <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-base xs:text-lg sm:text-2xl'>
+        <div className='mt-10'>
+            <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-lg xs:text-xl sm:text-3xl'>
             2. Términos y condiciones de uso
             </h2>
         </div>

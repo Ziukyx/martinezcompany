@@ -2,11 +2,11 @@ import React from 'react'
 
 function PoliticaPrivacidad() {
   return (
-    <div className='py-20 xxs:px-5 sm:px-8 max-w-6xl mx-auto'>
+    <div className='xxs:py-10 md:py-20 xxs:px-5 sm:px-10 lg:px-20 max-w-6xl mx-auto'>
     <div>
         <h1 className='text-center xxs:font-semibold lg:font-normal bg-clip-text text-transparent py-5 mx-auto tracking-tight xxs:text-3xl xs:text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-[80px] 2xl:text-[90px] xxs:mb-3 lg:mb-5 bg-[linear-gradient(to_right,theme(colors.blue.300),theme(colors.blue.950),theme(colors.blue.300))] dark:bg-[linear-gradient(to_right,theme(colors.blue.400),theme(colors.blue.100),theme(colors.blue.400))] bg-[length:200%_auto] animate-gradient'>Política de privacidad y protección de datos</h1> 
     </div>
-    <div className='pt-10'>
+    <div className='mt-10'>
         <p className='texto'>
         En cumplimiento de lo dispuesto por el Reglamento 2016/679, del Parlamento Europeo y del Consejo, de 27 de abril de 2016 y por LO 3/2018, de 5 de diciembre, de Protección de Datos de Carácter Personal y garantía de los derechos digitales, <span className='font-bold'>Martínez & Company Management & Intermediation</span>, como responsable del sitio web, informa a todos los usuarios que faciliten o vayan a facilitar sus datos personales, que estos serán objeto de tratamiento que se haya registrado entre las actividades de tratamiento de <span className='font-bold'>Martínez & Company Management & Intermediation</span>, conforme a lo previsto en el artículo 30 del Reglamento General de Protección de Datos.
         </p>
@@ -27,7 +27,7 @@ function PoliticaPrivacidad() {
         Al marcar la casilla correspondiente, el usuario acepta expresamente y de forma libre, que sus datos personales sean tratados por <span className='font-bold'>Martínez & Company Management & Intermediation</span> con los siguientes fines:
         </p>
         <br/>
-        <ul className='texto'>
+        <ul className='xxs:text-base xs:text-lg sm:text-2xl text-justify xxs:tracking-tighter sm:tracking-normal'>
             <li>
             •	Atender las consultas del usuario. 
             </li>
@@ -41,9 +41,8 @@ function PoliticaPrivacidad() {
         <p className='texto'><span className='font-bold'>Martínez & Company Management & Intermediation</span> garantiza en todo momento al usuario el ejercicio de sus derechos de acceso, rectificación, limitación, supresión, cancelación, portabilidad y oposición sobre los datos personales facilitados. Asimismo, se garantiza en todo momento el ejercicio de sus derechos a ser notificado por el responsable respecto a cualquier rectificación, supresión o limitación del tratamiento de los datos, salvo que sea imposible o exija un esfuerzo desproporcionado, y tiene derecho a no ser objeto de una decisión que produzca efectos jurídicos basada únicamente en el tratamiento automatizado, dirigiéndose por escrito a <span className='font-bold'>Martínez & Company Management & Intermediation</span>, a través de la dirección de correo electrónico <a href='mailto:admin@martinezcompany.eu' className='text-blue-400 underline underline-offset-2'>admin@martinezcompany.eu</a>.</p>
     </div>
     <br/>
-    <br/>
-    <div>
-        <h2 className='font-semibold text-blue-400  xxs:text-center lg:text-justify xxs:text-base xs:text-lg sm:text-2xl'>
+    <div className='mt-10'>
+        <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-lg xs:text-xl sm:text-3xl'>
         1. Políticas de enlaces
         </h2>
     </div>
@@ -54,9 +53,8 @@ function PoliticaPrivacidad() {
         <p className='texto'><span className='font-bold'>Martínez & Company Management & Intermediation</span> no se hace responsable del contenido o prácticas de los sitios enlazados y se recomienda al usuario la lectura detallada de la política de privacidad de cualquier sitio web al que acceda desde éste.</p>
         <br/>
     </div>
-    <br/>
-    <div>
-        <h2 className='font-semibold text-blue-400  xxs:text-center lg:text-justify xxs:text-base xs:text-lg sm:text-2xl'>
+    <div className='mt-10'>
+        <h2 className='font-semibold text-blue-400 xxs:text-center lg:text-justify xxs:text-lg xs:text-xl sm:text-3xl'>
         2. Propiedad intelectual e industrial
         </h2>
     </div>
