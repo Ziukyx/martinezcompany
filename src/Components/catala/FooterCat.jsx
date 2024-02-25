@@ -13,7 +13,7 @@ function FooterCat() {
                   ))}
               </div>
   
-              <div className="pb-6 md:whitespace-nowrap columns-2 xxs:flex xxs:flex-wrap xxs:justify-center xxs:space-x-1 xs:space-x-3 md:space-x-2" aria-label="Footer">
+              <div className="pb-6 md:whitespace-nowrap columns-2 xxs:flex xxs:flex-wrap xxs:justify-center xxs:tracking-tighter sm:tracking-normal dark:tracking-normal xxs:space-x-1 md:space-x-2" aria-label="Footer">
                   <div>
                       <a href='#' className="xxs:text-sm xs:text-md leading-6 after:content-['__·'] text-blue-950 hover:text-blue-400 dark:text-gray-300 dark:hover:text-gray-600">
                         Avís Legal

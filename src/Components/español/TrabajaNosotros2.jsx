@@ -66,7 +66,7 @@ function Ordenador(){
                 </div>
 
                 <div className="flex  flex-col gap-x-4 xxs:py-6 lg:p-1">
-                    <div className="flex gap-x-2 justify-center">
+                    <div className="flex gap-x-px justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 48 48" className="mt-1 text-blue-400">
                         <defs>
                             <mask id="IconifyId18cd61b6129c839001">
@@ -80,7 +80,7 @@ function Ordenador(){
                         </defs>
                         <path fill="currentColor" d="M0 0h48v48H0z" mask="url(#IconifyId18cd61b6129c839001)"/>
                     </svg>
-                    <h3 className="font-semibold text-blue-400 lg:tracking-tighter xl:tracking-normal lg:text-[19px] xl:text-xl">Política ilimitada de vacaciones</h3></div>
+                    <h3 className="font-semibold text-blue-400 lg:tracking-tighter xl:tracking-normal lg:text-[18.5px] xl:text-[19.4px]">Política ilimitada de vacaciones</h3></div>
                     <p className="mt-3 text-blue-950 dark:text-white texto2 tracking-tight">Le recomendamos como mínimo un mes de vacaciones, pero confiamos en la gestión de su autonomía para descansar y disfrutar de su vida.</p>
                 </div>
             </div>
@@ -109,11 +109,11 @@ function Ordenador(){
                 </div>
 
                 <div className="flex  flex-col gap-x-4 xxs:py-6 lg:py-1 xl:p-1">
-                    <div className="flex gap-x-2 justify-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.6em" viewBox="0 0 24 24" className='mt-1 text-blue-400'>
+                    <div className="flex gap-x-px justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.6em" viewBox="0 0 24 24" className='mt-px text-blue-400'>
                             <path fill="currentColor" d="m15.4 17l1.3 4.4h-1.1L13 17h-3c-.55 0-1-.45-1-1s.45-1 1-1h3l2.6-4.4h1.1L15.4 15h2.85l.75-1h1l-.6 2l.6 2h-1l-.75-1zM5.75 7L5 6H4l.6 2l-.6 2h1l.75-1H8.6l-1.3 4.4h1.1L11 9h3c.55 0 1-.45 1-1s-.45-1-1-1h-3L8.4 2.6H7.3L8.6 7z"/>
                         </svg>
-                        <h3 className="font-semibold lg:tracking-tighter xl:tracking-tight 2xl:tracking-normal text-blue-400 text-[19px]">Participación en eventos externos</h3>
+                        <h3 className="font-semibold lg:tracking-tighter 2xl:tracking-normal text-blue-400 lg:text-[17.1px] xl:text-[19.4px]">Participación en eventos externos</h3>
                     </div>
                     <p className="mt-3 text-blue-950 dark:text-white texto2 tracking-tight">Construiremos el <i>networking</i> necesario del que aprender y enriquecer nuestra red profesional de colaboradores asistiendo a jornadas, conferencias, congresos, etc.</p>
                 </div>
@@ -145,7 +145,7 @@ function Ordenador(){
                         <svg xmlns="http://www.w3.org/2000/svg" width="1.3em" height="1.3em" viewBox="0 0 24 24" className='mt-1 text-blue-400'>
                             <path fill="currentColor" d="M3 1h16a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 8h16a1 1 0 0 1 1 1v.67l-2.5-1.11l-6.5 2.88V15H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1m0 8h8c.06 2.25 1 4.4 2.46 6H3a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1M8 5h1V3H8zm0 8h1v-2H8zm0 8h1v-2H8zM4 3v2h2V3zm0 8v2h2v-2zm0 8v2h2v-2zm13.5-7l4.5 2v3c0 2.78-1.92 5.37-4.5 6c-2.58-.63-4.5-3.22-4.5-6v-3zm0 1.94L15 15.06v2.66c0 1.54 1.07 2.98 2.5 3.34z"/>
                         </svg>
-                        <h3 className="font-semibold text-blue-400 text-xl">Tecnología de vanguardia</h3></div>
+                        <h3 className="font-semibold text-blue-400 lg:tracking-tight text-xl">Tecnología de vanguardia</h3></div>
                         <p className="mt-3 text-blue-950 dark:text-white texto2 tracking-tight">Impulsamos su productividad proporcionándole acceso a equipos de vanguardia y herramientas digitales avanzadas para garantizar una experiencia laboral eficiente y actualizada.</p>
                     </div>
                 </div>
