@@ -19,12 +19,12 @@ export default function LanguageMenu() {
       <DropdownMenu 
         className="from-slate-300 to-slate-100 shadow-md shadow-slate-100 dark:shadow-black dark:from-slate-950 dark:to-blue-950 bg-gradient-to-t rounded-md py-1 p-1 h-26 w-26 hover:outline-0 hover:ring-0"
       >
-        <DropdownItem key="castellano" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 hover:ring-0 dark:hover:bg-slate-700 rounded-md">
+        <DropdownItem href="/" key="castellano" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 hover:ring-0 dark:hover:bg-slate-700 rounded-md">
           <Link href="/">Castellano</Link></DropdownItem>
-        <DropdownItem key="Català" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700 rounded-md">
+        <DropdownItem href="/catala" key="Català" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700 rounded-md">
           <Link href="/catala" className="">Català</Link>
         </DropdownItem>
-        <DropdownItem key="english" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700 rounded-md">
+        <DropdownItem href="/english" key="english" className="px-4 py-1 text-center text-slate-950 dark:text-white hover:bg-slate-300 dark:hover:bg-slate-700 rounded-md">
           <Link href="/english">English</Link>
         </DropdownItem>
       
